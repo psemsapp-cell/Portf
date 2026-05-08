@@ -2,19 +2,19 @@ export const educations = [
   {
     id: 1,
     title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    duration: "2022 - Present",
+    institution: "Davao del Norte State College",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Senior High School",
+    duration: "2020 - 2022",
+    institution: "Panabo City National High School - Science Technology Engineering and Mathematics (STEM) Strand",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "Highschool",
+    duration: "2016 - 2020",
+    institution: "Panao City National High School",
   }
 ]
