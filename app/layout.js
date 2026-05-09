@@ -1,4 +1,3 @@
-import { GoogleTagManager } from "@next/third-parties/google";
 import { Inter } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -8,13 +7,10 @@ import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
-
 export const metadata = {
   title: "Portfolio ni Jamis",
-  description:
-    "Hi, I am James an aspiring network engineer and web developer. I am currently a student at Davao del Norte State College, pursuing a Bachelor's degree in Computer Science. I have experience in web development, particularly in frontend development using NextJS and ReactJS. I am passionate about learning new technologies and improving my skills in the field of Information Technology.",
+  description: "Hi, I am James an aspiring network engineer and web developer...",
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -27,7 +23,6 @@ export default function RootLayout({ children }) {
         </main>
         <Footer />
       </body>
-      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
     </html>
   );
 }
